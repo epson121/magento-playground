@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Foo_Bar>
+            <version>0.2</version>
+        </Foo_Bar>
+    </modules>
+    <frontend><!-- or any other area (adminhtml etc.) -->
+        <routers>
+            <foo_bar>
+                <use>standard</use> <!-- or admin -->
+                <args>
+                    <module>Foo_Bar</module>
+                    <frontName>foo</frontName>
+                </args>
+            </foo_bar>
+        </routers>
+    </frontend>
+    <global>
+        <models>
+            <foo_bar>
+                <class>Foo_Bar_Model</class>
+            </foo_bar>
+        </models>
+    </global>
+   
+</config>
