@@ -7,4 +7,7 @@ class Foo_Bar_PastaController extends Mage_Core_Controller_Front_Action {
         echo "I am sleeping";
     }
     
+    public function playAction() {
+        echo "I am playing";
+    }
 }

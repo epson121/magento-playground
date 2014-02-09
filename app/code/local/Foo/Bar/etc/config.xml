@@ -14,8 +14,16 @@
                     <frontName>foo</frontName>
                 </args>
             </foo_bar>
+            <catalog>
+                <args>
+                    <modules>
+                        <foo_bar before="Mage_Catalog">Foo_Bar_Catalog</foo_bar>
+                    </modules>
+                </args>
+            </catalog>
         </routers>
     </frontend>
+    
     <global>
         <models>
             <foo_bar>
