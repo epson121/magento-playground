@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<config>
+    <global>
+        <blocks>
+            <test_module>
+                <class>Test_Module_Block</class>
+            </test_module>
+        </blocks>
+        <helpers>
+            <test_module>
+                <class>Test_Module_Helper</class>
+            </test_module>
+        </helpers>
+        <models>
+            <test_module>
+                <class>Test_Module_Model</class>
+            </test_module>
+        </models>
+    </global>
+    
+    <frontend>
+        <routers>
+            <test_module>
+                <use>standard</use>
+                <args>
+                    <module>Test_Module</module>
+                    <frontName>test</frontName>
+                </args>
+            </test_module>
+        </routers>
+    </frontend>
+</config>
