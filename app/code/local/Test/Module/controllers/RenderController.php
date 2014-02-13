@@ -25,9 +25,21 @@ class Test_Module_RenderController extends Mage_Core_Controller_Front_Action {
         // create block -> mage/core/Block/Template.php
         // setTemplate -> relative to templates folder (app/design/default/base/Template)
         $blockHtml = $this->getLayout()
-                                   ->createBlock('core/template')
-                                   ->setTemplate('test_module/random.phtml')
-                                   ->toHtml();
+                        ->createBlock('core/template')
+                        ->setTemplate('test_module/random.phtml')
+                        ->toHtml();
+        $this->getResponse()->setBody($blockHtml);
+    }
+    
+    public function registryAction() {
+        // create block -> mage/core/Block/Template.php
+        // setTemplate -> relative to templates folder (app/design/default/base/Template)
+        
+        Mage::register('some_var', 'some_value');
+        $blockHtml = $this->getLayout()
+                        ->createBlock('test_module/registry')
+                        ->setTemplate('test_module/registry.phtml')
+                        ->toHtml();
         $this->getResponse()->setBody($blockHtml);
     }
 }
