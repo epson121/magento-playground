@@ -5,6 +5,17 @@
             <test_module>
                 <class>Test_Module_Block</class>
             </test_module>
+            <!--catalog>
+                <rewrite>
+                    <product_view>Test_Module_Block_Catalog_Product_View</product_view>
+                </rewrite>
+            </catalog-->
+            <page>
+                <rewrite>
+                    <html_breadcrumbs>Test_Module_Block_Html_Breadcrumbs</html_breadcrumbs>
+                </rewrite>
+            </page>
+                
         </blocks>
         <helpers>
             <test_module>

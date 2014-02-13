@@ -42,4 +42,15 @@ class Test_Module_RenderController extends Mage_Core_Controller_Front_Action {
                         ->toHtml();
         $this->getResponse()->setBody($blockHtml);
     }
+    
+    public function listBlockAction() {
+        $tlb = $this->getLayout()->createBlock('core/text_list');
+        $blockA = $this->getLayout()->createBlock('core/text')->setText('<h1>Block A</h1>');
+        $blockB = $this->getLayout()->createBlock('core/text')->setText('<h1>Block B</h1>');
+        $tlb->insert($blockA)->insert($blockB);
+        //$this->getResponse()->setBody($tlb->toHtml());
+        $this->loadLayout();
+        $this->getLayout()->getBlock('content')->insert($tlb);
+        $this->renderLayout();
+    }
 }
