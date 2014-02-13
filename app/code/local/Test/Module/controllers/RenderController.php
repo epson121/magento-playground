@@ -53,4 +53,17 @@ class Test_Module_RenderController extends Mage_Core_Controller_Front_Action {
         $this->getLayout()->getBlock('content')->insert($tlb);
         $this->renderLayout();
     }
+    
+    public function layoutAction() {
+        $this->loadLayout()->renderLayout();
+    }
+    
+    public function handleAction() {
+        $this->loadLayout('cool_handle')->renderLayout();
+    }
+    
+    public function finalAction() {
+        $this->loadLayout()->renderLayout();
+    }
+    
 }

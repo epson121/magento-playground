@@ -39,5 +39,12 @@
                 </args>
             </test_module>
         </routers>
+        <layout>
+            <updates>
+                <my_layout>
+                    <file>test_module/custom.xml</file>
+                </my_layout>
+            </updates>
+        </layout>
     </frontend>
 </config>
