@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Training_Animal>
+            <version>0.1.1</version>
+        </Training_Animal>
+    </modules>
+    <global>
+        <models>
+            <training>
+                <class>Training_Animal_Model</class>
+                <resourceModel>training_animal_resource</resourceModel>
+            </training>
+            <training_animal_resource>
+                <class>Training_Animal_Model_Mysql4</class>
+                <entities>
+                    <animal><table>training_animal_entity</table></animal>
+                </entities>
+            </training_animal_resource>
+        </models>
+        <resources>
+            <training_animal_setup>
+                <setup>
+                    <module>Training_Animal</module>
+                    <class>Mage_Core_Model_Resource_Setup</class>
+                </setup>
+            </training_animal_setup>
+        </resources>
+    </global>
+    
+    <frontend>
+        <routers>
+            <training_animal>
+                <use>standard</use>
+                <args>
+                    <module>training_animal</module>
+                    <frontName>test</frontName>
+                </args>
+            </training_animal>
+        </routers>
+        <layout>
+            <updates>
+                <my_layout>
+                    <file>training_animal/custom.xml</file>
+                </my_layout>
+            </updates>
+        </layout>
+    </frontend>
+</config>
