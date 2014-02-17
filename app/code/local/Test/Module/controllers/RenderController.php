@@ -11,16 +11,16 @@
  * @author luka
  */
 class Test_Module_RenderController extends Mage_Core_Controller_Front_Action {
-    
+
     public function blockAction() {
         $this->getResponse()->setBody("Hello world");
     }
-    
+
     public function overrideAction() {
         $blockHtml = $this->getLayout()->createBlock('test_module/sample')->toHtml();
         $this->getResponse()->setBody($blockHtml);
     }
-    
+
     public function templateAction() {
         // create block -> mage/core/Block/Template.php
         // setTemplate -> relative to templates folder (app/design/default/base/Template)
@@ -30,11 +30,11 @@ class Test_Module_RenderController extends Mage_Core_Controller_Front_Action {
                         ->toHtml();
         $this->getResponse()->setBody($blockHtml);
     }
-    
+
     public function registryAction() {
         // create block -> mage/core/Block/Template.php
         // setTemplate -> relative to templates folder (app/design/default/base/Template)
-        
+
         Mage::register('some_var', 'some_value');
         $blockHtml = $this->getLayout()
                         ->createBlock('test_module/registry')
@@ -42,7 +42,7 @@ class Test_Module_RenderController extends Mage_Core_Controller_Front_Action {
                         ->toHtml();
         $this->getResponse()->setBody($blockHtml);
     }
-    
+
     public function listBlockAction() {
         $tlb = $this->getLayout()->createBlock('core/text_list');
         $blockA = $this->getLayout()->createBlock('core/text')->setText('<h1>Block A</h1>');
@@ -53,17 +53,17 @@ class Test_Module_RenderController extends Mage_Core_Controller_Front_Action {
         $this->getLayout()->getBlock('content')->insert($tlb);
         $this->renderLayout();
     }
-    
+
     public function layoutAction() {
         $this->loadLayout()->renderLayout();
     }
-    
+
     public function handleAction() {
         $this->loadLayout('cool_handle')->renderLayout();
     }
-    
+
     public function finalAction() {
         $this->loadLayout()->renderLayout();
     }
-    
+
 }

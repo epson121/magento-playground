@@ -128,7 +128,7 @@ if (!$mediaDirectory) {
     $relativeFilename = str_replace($mediaDirectory . '/', '', $pathInfo);
 
     $fp = fopen($configCacheFile, 'w');
-    if (flock($fp, LOCK_EX | LOCK_NB)) {
+    if (flock($fp, LOCK_EX | LOCK_NB)) {   
         ftruncate($fp, 0);
         fwrite($fp, json_encode($config));
     }
@@ -139,7 +139,7 @@ if (!$mediaDirectory) {
 }
 
 if (0 !== stripos($pathInfo, $mediaDirectory . '/')) {
-    sendNotFoundPage();
+    sendNotFoundPage();   
 }
 
 try {
@@ -171,9 +171,9 @@ sendNotFoundPage();
 function sendNotFoundPage()
 {
     header('HTTP/1.0 404 Not Found');
-    exit;
+    exit;       
 }
-
+  
 /**
  * Check resource by whitelist
  *

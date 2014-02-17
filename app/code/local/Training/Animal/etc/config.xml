@@ -27,7 +27,7 @@
             </training_animal_setup>
         </resources>
     </global>
-    
+
     <frontend>
         <routers>
             <training_animal>

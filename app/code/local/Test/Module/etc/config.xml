@@ -15,7 +15,7 @@
                     <html_breadcrumbs>Test_Module_Block_Html_Breadcrumbs</html_breadcrumbs>
                 </rewrite>
             </page>
-                
+
         </blocks>
         <helpers>
             <test_module>
@@ -28,7 +28,7 @@
             </test_module>
         </models>
     </global>
-    
+
     <frontend>
         <routers>
             <test_module>
