@@ -1,0 +1,7 @@
+<layout>
+    <tutsplus_demo_index_sayhello>
+        <reference name="content">
+            <block type="demo/configurable" name="demo" template="tutsplus/configurable.phtml" />
+        </reference>
+    </tutsplus_demo_index_sayhello>
+</layout>

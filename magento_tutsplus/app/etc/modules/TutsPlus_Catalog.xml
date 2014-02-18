@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<config>
+    <modules>
+        <TutsPlus_Catalog>
+            <active>true</active>
+            <codePool>local</codePool>
+        </TutsPlus_Catalog>
+    </modules>
+</config>

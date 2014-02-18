@@ -1,0 +1,56 @@
+<config>
+    <global>
+        <models>
+            <demo>
+                <class>TutsPlus_Demo_Model</class>
+            </demo>
+        </models>
+        <helpers>
+            <demo>
+                <class>TutsPlus_Demo_Helper</class>
+            </demo>
+        </helpers>
+        <blocks>
+            <demo>
+                <class>TutsPlus_Demo_Block</class>
+            </demo>
+        </blocks>
+
+        <events> <!-- register the observer -->
+            <customer_login>
+                <observers>
+                    <demo>
+                        <type>model</type> <!-- can be model(getModel) or singleton(getSingleton) -->
+                        <class>demo/observer</class>
+                        <method>logCustomer</method> <!-- method to call -->
+                    </demo>
+                </observers>
+            </customer_login>
+        </events>
+    </global>
+    <frontend>
+        <routers>
+            <tutsplus_demo>
+                <use>standard</use> <!-- name a router -->
+                <args>
+                    <module>TutsPlus_Demo</module>
+                    <frontName>demo</frontName>
+                </args>
+            </tutsplus_demo>
+            <catalog>
+                <args>
+                    <modules>
+                        <demo before="Mage_Catalog">TutsPlus_Demo</demo>
+                    </modules>
+                </args>
+            </catalog>
+        </routers>
+        <layout>
+            <updates>
+                <demo>
+                    <file>tutsplus.xml</file> <!-- relative to layout folder in frontend/default/tutsplus/layout -->
+                </demo>
+            </updates>
+        </layout>
+    </frontend>
+</config>

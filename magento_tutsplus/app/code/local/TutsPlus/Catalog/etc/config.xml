@@ -1,0 +1,11 @@
+<config>
+    <global>
+        <models> <!-- models/helpers/blocks -->
+            <catalog> <!-- class group name/string befrore slash in factory method-->
+                <rewrite>
+                    <category>TutsPlus_Catalog_Model_Category</category> <!-- class to override -->
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+</config>

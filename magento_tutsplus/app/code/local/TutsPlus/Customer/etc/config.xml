@@ -1,0 +1,11 @@
+<config>
+    <global>
+         <helpers> <!-- models/helpers/blocks -->
+            <customer> <!-- class group name/string befrore slash in factory method-->
+                <rewrite>
+                    <data>TutsPlus_Customer_Helper_Data</data> <!-- class to override -->
+                </rewrite>
+            </customer>
+        </helpers>
+    </global>
+</config>
