@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout>
+    <default>
+        <reference name="right">
+            <action method="unsetChild"><name>right.poll</name></action>
+        </reference>
+        <reference name="left">
+            <action method="insert">
+                <name>right.poll</name>
+                <sibling>enterprisecatalog.leftnav</sibling>
+            </action>
+        </reference>
+    </default>
+    
+    <catalog_category_layered>
+        <reference name="left">
+            <action method="insert">
+                <name>right.poll</name>
+                <sibling>enterprisecatalog.leftnav</sibling>
+            </action>
+        </reference>
+    </catalog_category_layered>
+</layout>

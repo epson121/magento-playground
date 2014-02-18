@@ -1,0 +1,28 @@
+2014-02-09T18:22:33+00:00 INFO (6): Test_Module_Model_Whatever Object
+(
+    [_eventPrefix:protected] => core_abstract
+    [_eventObject:protected] => object
+    [_resourceName:protected] => 
+    [_resource:protected] => 
+    [_resourceCollectionName:protected] => 
+    [_cacheTag:protected] => 
+    [_dataSaveAllowed:protected] => 1
+    [_isObjectNew:protected] => 
+    [_data:protected] => Array
+        (
+        )
+
+    [_hasDataChanges:protected] => 
+    [_origData:protected] => 
+    [_idFieldName:protected] => 
+    [_isDeleted:protected] => 
+    [_oldFieldsMap:protected] => Array
+        (
+        )
+
+    [_syncFieldsMap:protected] => Array
+        (
+        )
+
+)
+
