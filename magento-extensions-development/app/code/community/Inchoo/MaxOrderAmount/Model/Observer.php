@@ -10,9 +10,6 @@ class Inchoo_MaxOrderAmount_Model_Observer
         return;
         }
 
-        echo "ADSDASD";
-        var_dump("ASDASDSA");
-
         $quote = $observer->getEvent()->getQuote();
 
         if ((float)$quote->getGrandTotal() > (float)$helper->getSingleOrderTopAmount()) {
