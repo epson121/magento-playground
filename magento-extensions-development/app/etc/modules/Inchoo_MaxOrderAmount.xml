@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Inchoo_MaxOrderAmount>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Inchoo_MaxOrderAmount>
+    </modules>
+</config>

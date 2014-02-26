@@ -1,0 +1,165 @@
+2014-02-26T09:08:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:27+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:27+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:27+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:27+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:34+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:34+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:34+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:34+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:42+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:42+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:42+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:42+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:43+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:43+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:43+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:43+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:43+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:43+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:49+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:49+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:49+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:49+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:50+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:50+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:50+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:50+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:54+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:54+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:54+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:54+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:54+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:08:54+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:23+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:23+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:23+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:23+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:31+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:31+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:31+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:31+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:32+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:32+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:32+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:32+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:35+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:35+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:35+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:09:35+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:12+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:12+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:12+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:12+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:17+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:17+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:17+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:17+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:24+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:24+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:24+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:24+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:28+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : xmlParsePI : no target name  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:28+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:28+00:00 ERR (3): Warning: simplexml_load_string():   ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:28+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:28+00:00 ERR (3): Warning: simplexml_load_string(): <? xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:11:28+00:00 ERR (3): Warning: simplexml_load_string():    ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : String not closed expecting " or '  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Malformed declaration expecting version  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Blank needed here  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : parsing XML declaration: '?>' expected  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:51+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : String not closed expecting " or '  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Malformed declaration expecting version  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Blank needed here  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : parsing XML declaration: '?>' expected  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:52+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : String not closed expecting " or '  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Malformed declaration expecting version  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Blank needed here  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : parsing XML declaration: '?>' expected  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:14:57+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : String not closed expecting " or '  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Malformed declaration expecting version  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Blank needed here  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : parsing XML declaration: '?>' expected  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:02+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : String not closed expecting " or '  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Malformed declaration expecting version  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Blank needed here  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : parsing XML declaration: '?>' expected  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string():                 ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '<' not found  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string(): <?xml version="1,0" ?>  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2014-02-26T09:15:05+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
