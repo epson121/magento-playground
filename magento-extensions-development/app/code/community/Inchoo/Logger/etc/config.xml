@@ -1,0 +1,35 @@
+<config>
+    <modules>
+        <Inchoo_Logger>
+            <version>1.0.0.0</version>
+        </Inchoo_Logger>
+    </modules>
+    <global>
+        <models>
+            <inchoo_logger>
+                <class>Inchoo_Logger_Model</class>
+                <resourceModel>inchoo_logger_resource</resourceModel>
+            </inchoo_logger>
+            <inchoo_logger_resource>
+                <class>Inchoo_Logger_Model_Resource</class>
+                <entities>
+                    <logger>
+                        <table>inchoo_logger_logger</table>
+                    </logger>
+                </entities>
+            </inchoo_logger_resource>
+        </models>
+        <resources>
+            <inchoo_logger_setup>
+                <setup>
+                    <module>Inchoo_Logger</module>
+                </setup>
+            </inchoo_logger_setup>
+        </resources>
+        <helpers>
+            <inchoo_logger>
+                <class>Inchoo_Logger_Helper</class>
+            </inchoo_logger>
+        </helpers>
+    </global>
+</config>

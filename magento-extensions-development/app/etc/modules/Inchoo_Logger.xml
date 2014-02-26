@@ -1,0 +1,11 @@
+<config>
+    <modules>
+        <Inchoo_Logger>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Core/>
+            </depends>
+        </Inchoo_Logger>
+    </modules>
+</config>
