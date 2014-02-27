@@ -5,6 +5,11 @@
         </Inchoo_Logger>
     </modules>
     <global>
+        <log>
+            <core>
+                <writer_model>Inchoo_Logger_Model_Log_Writer_Stream</writer_model>
+            </core>
+        </log>
         <models>
             <inchoo_logger>
                 <class>Inchoo_Logger_Model</class>
@@ -19,6 +24,11 @@
                 </entities>
             </inchoo_logger_resource>
         </models>
+        <blocks>
+            <inchoo_logger>
+                <class>Inchoo_Logger_Block</class>
+            </inchoo_logger>
+        </blocks>
         <resources>
             <inchoo_logger_setup>
                 <setup>
@@ -32,4 +42,16 @@
             </inchoo_logger>
         </helpers>
     </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Inchoo_Logger before="Mage_Adminhtml">Inchoo_Logger_Adminhtml</Inchoo_Logger>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
 </config>

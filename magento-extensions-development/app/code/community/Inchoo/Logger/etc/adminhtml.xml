@@ -1,0 +1,17 @@
+<config>
+    <menu>
+        <system>
+            <children>
+                <tools>
+                    <children>
+                        <inchoo_logger translate="title" module="inchoo_logger">
+                            <title>Logger</title>
+                            <action>adminhtml/inchoo_logger/index</action>
+                            <sort_order>25</sort_order>
+                        </inchoo_logger>
+                    </children>
+                </tools>
+            </children>
+        </system>
+    </menu>
+</config>
