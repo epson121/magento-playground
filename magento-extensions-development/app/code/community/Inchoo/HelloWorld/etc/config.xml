@@ -1,0 +1,29 @@
+<config>
+    <modules>
+        <Inchoo_HelloWorld>
+            <version>0.1.0</version>
+        </Inchoo_HelloWorld>
+    </modules>
+    <global>
+        <models>
+            <class>Inchoo_HelloWorld_Model</class>
+        </models>
+        <helpers>
+            <class>Inchoo_HelloWorld_Helper</class>
+        </helpers>
+        <blocks>
+            <class>Inchoo_HelloWorld_Block</class>
+        </blocks>
+    </global>
+     <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Inchoo_HelloWorld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+    </frontend>
+</config>
