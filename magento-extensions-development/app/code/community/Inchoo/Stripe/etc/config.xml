@@ -1,0 +1,34 @@
+<config>
+    <modules>
+        <Inchoo_Stripe>
+            <version>1.0.0.0</version>
+        </Inchoo_Stripe>
+    </modules>
+
+    <global>
+        <models>
+            <inchoo_stripe>
+                <class>Inchoo_Stripe_Model</class>
+            </inchoo_stripe>
+        </models>
+        <helpers>
+            <inchoo_stripe>
+                <class>Inchoo_Stripe_Helper</class>
+            </inchoo_stripe>
+        </helpers>
+    </global>
+
+    <default>
+        <payment>
+            <inchoo_stripe>
+                <model>inchoo_stripe/payment</model>
+                <api_key backend_model="adminhtml/system_config_backend_encrypted" />
+                <payment_action>authorize_capture</payment_action>
+                <title>Inchoo Stripe</title>
+                <cctypes>AE,VI,MC,DI,JCB</cctypes>
+                <useccv>1</useccv>
+            </inchoo_stripe>
+        </payment>
+    </default>
+
+</config>
