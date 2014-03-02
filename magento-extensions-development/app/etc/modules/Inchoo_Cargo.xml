@@ -1,0 +1,11 @@
+<config>
+    <modules>
+        <Inchoo_Cargo>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Shipping/>
+            </depends>
+        </Inchoo_Cargo>
+    </modules>
+</config>

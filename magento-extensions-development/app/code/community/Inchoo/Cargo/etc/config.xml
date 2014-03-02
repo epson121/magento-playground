@@ -1,0 +1,26 @@
+<config>
+    <modules>
+        <Inchoo_Cargo>
+            <version>1.0.0.0</version>
+        </Inchoo_Cargo>
+    </modules>
+
+    <global>
+        <models>
+            <inchoo_cargo>
+                <class>Inchoo_Cargo_Model</class>
+            </inchoo_cargo>
+        </models>
+    </global>
+    <default>
+        <carriers>
+            <inchoo_cargo_fixy>
+                <active>1</active>
+                <model>inchoo_cargo/shipping_carrier_fixy</model>
+                <title>Inchoo Cargo</title>
+                <name>Fixy</name>
+            </inchoo_cargo_fixy>
+        </carriers>
+    </default>
+
+</config>
