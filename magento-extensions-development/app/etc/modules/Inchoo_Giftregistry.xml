@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Inchoo_Giftregistry>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Inchoo_Giftregistry>
+    </modules>
+</config>
