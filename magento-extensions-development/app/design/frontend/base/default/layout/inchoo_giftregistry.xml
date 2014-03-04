@@ -1,0 +1,44 @@
+<layout version="0.1.0">
+    <inchoo_giftregistry_index_index>
+        <reference name="content">
+            <block name="giftregistry.list" type="inchoo_giftregistry/list"
+                   template="inchoo/list.phtml" as="giftregistry_list"/>
+        </reference>
+    </inchoo_giftregistry_index_index>
+
+    <inchoo_giftregistry_index_new>
+        <reference name="content">
+            <block name="giftregistry.new" type="core/template"
+                   template="inchoo/new.phtml" as="giftregistry_new"/>
+        </reference>
+    </inchoo_giftregistry_index_new>
+
+    <inchoo_giftregistry_index_edit>
+        <reference name="content">
+            <block name="giftregistry.edit" type="core/template"
+                   template="inchoo/edit.phtml" as="giftregistry_edit"/>
+        </reference>
+    </inchoo_giftregistry_index_edit>
+
+    <inchoo_giftregistry_view_view>
+        <reference name="content">
+            <block name="giftregistry.view" type="core/template"
+            template="inchoo/view.phtml" as="giftregistry_view"/>
+        </reference>
+
+    </inchoo_giftregistry_view_view>
+
+    <inchoo_giftregistry_search_index>
+        <reference name="content">
+            <block name="giftregistry.search" type="core/template"
+                   template="inchoo/search.phtml" as="giftregistry_search"/>
+        </reference>
+    </inchoo_giftregistry_search_index>
+
+    <inchoo_giftregistry_search_results>
+        <reference name="content">
+            <block name="giftregistry.results" type="inchoo_giftregistry/result"
+                   template="inchoo/result.phtml" as="giftregistry_results"/>
+        </reference>
+    </inchoo_giftregistry_search_results>
+</layout>

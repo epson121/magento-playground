@@ -9,13 +9,6 @@ class Inchoo_Giftregistry_IndexController extends Mage_Core_Controller_Front_Act
         return $this;
     }
 
-    public function deleteAction()
-    {
-        $this->loadLayout();
-        $this->renderLayout();
-        return $this;
-    }
-
     public function newAction()
     {
         $this->loadLayout();
@@ -34,15 +27,15 @@ class Inchoo_Giftregistry_IndexController extends Mage_Core_Controller_Front_Act
     {
         try {
             $data = $this->getRequest()->getParams();
-            $registry = Mage::getModel('mdg_giftregistry/entity');
+            $registry = Mage::getModel('inchoo_giftregistry/entity');
             $customer = Mage::getSingleton('customer/session')->getCustomer();
 
             if($this->getRequest()->getPost() && !empty($data)) {
                 $registry->updateRegistryData($customer, $data);
                 $registry->save();
-                $successMessage = Mage::helper('mdg_giftregistry')->__('Registry Successfully Created');
+                $successMessage = Mage::helper('inchoo_giftregistry')->__('Registry Successfully Created');
                 Mage::getSingleton('core/session')->addSuccess($successMessage);
-            }else{
+            } else{
                 throw new Exception("Insufficient Data provided");
             }
         } catch (Mage_Core_Exception $e) {
@@ -54,10 +47,61 @@ class Inchoo_Giftregistry_IndexController extends Mage_Core_Controller_Front_Act
 
     public function editPostAction()
     {
-        $this->loadLayout();
-        $this->renderLayout();
-        return $this;
+        try {
+            $data = $this->getRequest()->getParams();
+            $registry = Mage::getModel('inchoo_giftregistry/entity');
+            $customer = Mage::getSingleton('customer/session')->getCustomer();
+            if($this->getRequest()->getPost() && !empty($data) )
+            {
+                var_dump($data);
+                $registry->load($data['entity_id']);
+                // var_dump("<br><br>");
+                // var_dump($registry);
+                // die();
+                if($registry){
+                    $registry->updateRegistryData($customer, $data);
+                    $registry->save();
+                    $successMessage = Mage::helper('inchoo_giftregistry')->__('Registry Successfully Saved');
+                    Mage::getSingleton('core/session')->addSuccess($successMessage);
+                } else {
+                    throw new Exception("Invalid Registry Specified");
+                }
+            } else {
+                throw new Exception("Insufficient Data provided");
+            }
+        } catch (Mage_Core_Exception $e) {
+            Mage::getSingleton('core/session')->addError($e->getMessage());
+            $this->_redirect('*/*/');
+        }
+
+        $this->_redirect('*/*/');
     }
+    // Mage_Core_Controller_Request_Http
+    public function deleteAction() {
+        try {
+            $registryId = $this->getRequest()->getParam('registry_id');
+            if($registryId && $this->getRequest()->getQuery('registry_id')){
+                $registry = Mage::getModel('inchoo_giftregistry/entity')->load($registryId);
+                if($registry) {
+                    $registry->delete();
+                    $successMessage = Mage::helper('inchoo_giftregistry')->__('Gift registry has been succesfully deleted.');
+                    Mage::getSingleton('core/session')->addSuccess($successMessage);
+                } else {
+                    throw new Exception("There was a problem deleting theregistry");
+                }
+            } else {
+                echo "ADSADSDA";
+                var_dump("#!ASDSAD");
+                die();
+            }
+        } catch (Exception $e) {
+            Mage::getSingleton('core/session')->addError($e->getMessage());
+            $this->_redirect('*/*/');
+        }
+        $this->_redirect('*/*/');
+    }
+
+
 
     /**
      * Fired before any of the actions. Here it check if user is logged in.

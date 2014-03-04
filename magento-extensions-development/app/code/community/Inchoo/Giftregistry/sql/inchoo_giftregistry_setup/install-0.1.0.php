@@ -6,7 +6,7 @@ $installer->startSetup();
 
 
 /**
- * Create Registry Type Table 
+ * Create Registry Type Table
  *
  *
  */
@@ -48,7 +48,7 @@ if ($installer->getConnection()->isTableExists($tableName) != true) {
 }
 
 /**
- * Create Registry Entity Table 
+ * Create Registry Entity Table
  *
  *
  */
@@ -149,7 +149,7 @@ if ($installer->getConnection()->isTableExists($tableName) != true) {
 }
 
 /**
- * Create Registry Item Table 
+ * Create Registry Item Table
  *
  *
  */

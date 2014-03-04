@@ -67,5 +67,12 @@
                 </args>
             </inchoo_giftregistry>
         </routers>
+        <layout>
+            <updates>
+                <inchoo_giftregistry module="inchoo_giftregistry">
+                    <file>inchoo_giftregistry.xml</file>
+                </inchoo_giftregistry>
+            </updates>
+        </layout>
     </frontend>
 </config>

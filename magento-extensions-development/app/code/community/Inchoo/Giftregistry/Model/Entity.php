@@ -12,11 +12,12 @@ class Inchoo_Giftregistry_Model_Entity extends Mage_Core_Model_Abstract
     {
         try{
             if(!empty($data)) {
+                $type_id = Mage::getModel('inchoo_giftregistry/type')->load($data['type_id'], 'code')->getTypeId();
                 $this->setCustomerId($customer->getId());
                 $this->setWebsiteId($customer->getWebsiteId());
-                $this->setTypeId($data['type_id']);
+                $this->setTypeId($type_id);
                 $this->setEventName($data['event_name']);
-                $this->setEventDate($data['event_date']);
+                //$this->setEventDate($data['event_date']);
                 $this->setEventCountry($data['event_country']);
                 $this->setEventLocation($data['event_location']);
             } else {
