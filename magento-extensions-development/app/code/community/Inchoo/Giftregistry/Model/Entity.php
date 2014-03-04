@@ -17,7 +17,7 @@ class Inchoo_Giftregistry_Model_Entity extends Mage_Core_Model_Abstract
                 $this->setWebsiteId($customer->getWebsiteId());
                 $this->setTypeId($type_id);
                 $this->setEventName($data['event_name']);
-                //$this->setEventDate($data['event_date']);
+                $this->setEventDate($data['event_date']);
                 $this->setEventCountry($data['event_country']);
                 $this->setEventLocation($data['event_location']);
             } else {

@@ -75,4 +75,24 @@
             </updates>
         </layout>
     </frontend>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <inchoo_giftregistry before="Mage_Adminhtml">Inchoo_Giftregistry_Adminhtml</inchoo_giftregistry>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <inchoo_giftregistry module="inchoo_giftregistry">
+                    <file>giftregistry.xml</file>
+                </inchoo_giftregistry>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>

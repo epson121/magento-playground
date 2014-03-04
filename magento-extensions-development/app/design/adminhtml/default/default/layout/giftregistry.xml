@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_customer_edit>
+        <reference name="left">
+            <reference name="customer_edit_tabs">
+                <block  type="inchoo_giftregistry/adminhtml_customer_edit_tab_giftregistry"
+                        name="tab_giftregistry_main"
+                        template="inchoo/giftregistry/customer/main.phtml">
+                    <block  type="inchoo_giftregistry/adminhtml_customer_edit_tab_giftregistry_list"
+                            name="tab_giftregistry_list"
+                            as="giftregistry_list" />
+                </block>
+                <action method="addTab">
+                    <name>inchoo_giftregistry</name>
+                    <block>inchoo_giftregistry/adminhtml_customer_edit_tab_giftregistry</block>
+                </action>
+            </reference>
+        </reference>
+    </adminhtml_customer_edit>
+</layout>
